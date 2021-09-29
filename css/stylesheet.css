@@ -55,11 +55,26 @@ header {
     max-width: 300px;
     height: auto;
 }
+.animation {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes animation {
+    0%   { left:190px; top:35px;}
+    50%  { left: 1000px; top:200px;}
+    100%   { left:190px; top:35px;}
+  }
 
 @media only screen and (max-width: 1000px) {
     .Header-logo img{
         height: auto;
         width: 0px;
+        visibility: hidden;
     }
 
     .header-link {
