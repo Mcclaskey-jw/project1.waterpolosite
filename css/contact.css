@@ -1,0 +1,22 @@
+.fill-out {
+    text-align: left;
+    padding: 20px;
+}
+
+.select {
+    text-align: left;
+    padding: 20px;
+}
+
+#fname, #lname, #Phone {
+    width: 200px;
+}
+
+#email {
+    width: 300px;
+}
+
+#description{
+    width: 600px;
+    height: 100px;
+}
