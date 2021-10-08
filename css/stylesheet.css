@@ -14,6 +14,10 @@ header {
     background: rgb(69, 00, 132);
 }
 
+.text-box{
+    padding: 10px 50px 20px 50px;
+}
+
 .Header-links {
     display: flex;
     width: 100%;
@@ -23,6 +27,18 @@ header {
     flex-grow: 4;
     text-align: center;
 }
+
+img {
+    max-width: 100%;
+    max-height: 650px;
+}
+
+#ball-animation{
+    width: 600px;
+    height: 200px;
+}
+
+
 
 .header-link {
     text-decoration: none;
